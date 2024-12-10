@@ -76,7 +76,7 @@ Bootstrap Kit is packaged with a bunch of features that will definately help wit
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="bi bi-0-circle"></i> TypeScript Support</h5>
+        <h5 class="card-title"><i class="bi bi-braces"></i> TypeScript Support</h5>
         <p class="card-text">Bootstrap Kit offers first-class support for TypeScript. No configuration needed.</p>
       </div>
     </div>
@@ -94,7 +94,3 @@ You don't necessarily need to know Bootstrap to use Bootstrap Kit, but it is rec
 Bootstrap is a collection of pre-made, ready to use components. You can compose these components and render an entire page with the HTML, but you need more than just HTML and components to write an entire app.
 
 That's where Bootstrap Kit comes in. Bootstrap Kit helps you build web applications with all the best practices, complete with a ton of [features](#key-features). The main thing is that Bootstrap Kit does all the heavy lifting, you just need to learn about how it works. if you're coming from a framework such as [NextJS](https://nextjs.org), or [ExpressJS](https://expressjs.com), some of our concept may be already familiar to you.
-
-## Project Idea
-
-We belive that
