@@ -14,25 +14,24 @@
         "lazyload" false) }}
       <h1 class="mb-3 fw-semibold lh-1">Easier Web Development with Bootstrap, for the rest of us</h1>
       <p class="lead mb-4">
-        Build anything from prototype to production, in minutes thanks to Bootstraps production-ready components, layouts, sass tooling, and more.
+        Build anything from prototype to production in minutes, thanks to Bootstrap's new intuitive web framework. Complete with batteries included.
       </p>
       <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-md-center gap-3 mb-4">
         <div class="d-inline-block v-align-middle fs-5">
-          {{ highlight (print ("cloth install bootstrap")) "sh" "" }}
+          {{ highlight (print ("npx create-bootstrap-kit-app@latest")) "sh" "" }}
         </div>
-        <a href="/docs/getting-started/quick-start/" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
+        <a href="/docs/getting-started/introduction/" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
           <svg class="bi me-2" aria-hidden="true"><use xlink:href="#book-half"></use></svg>
           Read The Docs
         </a>
       </div>
       <p class="text-body-secondary mb-0">
-        Currently <strong>V5</strong>
+        Currently <strong>V1.3</strong>
         <span class="px-1">&middot;</span>
-        <a href="/docs/getting-started/introduction/" class="link-secondary">Get an Introduction</a>
+        <a href="/docs/getting-started/installation/" class="link-secondary">Create A Project</a>
         <span class="px-1">&middot;</span>
-        <a href="/docs/getting-started/contents/" class="link-secondary text-nowrap">Contents</a>
+        <a href="/docs/tutorial/project-layout/" class="link-secondary text-nowrap">Learn Bootstrap Kit</a>
       </p>
-      {{ partial "ads" . }}
     </div>
   </div>
 </div>
